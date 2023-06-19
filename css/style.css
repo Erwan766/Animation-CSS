@@ -1,0 +1,155 @@
+#boite{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    font-size: 1.5em;
+    color: yellow ;
+    background: black;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    animation: deplacement alternate 21s; /* alternate/infinite*/
+    animation-timing-function: linear;
+}
+
+@keyframes deplacement{
+
+    0%{
+        top: 45%;
+        left: 45%;
+        border-radius: 20px;
+    }
+    10% /*17% du temps*/{
+        top: 20px;
+        left: 45%;
+        background: black;
+        color: yellow;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 1.5em;
+        width: 60px;
+        height: 60px;
+    }
+    20%{
+        top: 80%;
+        left: 45%;
+        border-radius: 12px;
+        background: black;
+        border-radius: 0px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: none;
+        color: yellow;text-align: center;
+        text-transform: lowercase;
+        transform: rotate(0deg);
+        width: 80px;
+        height: 80px;
+    }
+    30%{
+        top: 250px;
+        left: 1200px;
+        border-radius: 20px;
+        background: green;
+        color: white;
+        font-size: 1.5em;
+        text-align: center;
+        transform: rotate(280deg);
+        width: 100px;
+        height: 100px;
+
+    }
+    40%{
+        top: 500px;
+        left: 1200px;
+        background: black;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        text-align: center;
+        text-transform: lowercase;
+        font-size: 0.8em;
+        width: 60px;
+        height: 60px;
+        transform: rotate(0deg);
+    }
+    50%{
+        top: 500px;
+        left: 20px;
+        border-radius: none;
+        background: cyan;
+        color: white;
+        font-size: 1.5em;
+        border: none;
+        transform: rotate(-360deg);
+        text-align: center;
+        opacity: 15px;
+        width: 80px;
+        height: 80px;  
+    }
+    60%{
+        top: 30px;
+        left: 30px;
+        background: blue;
+        text-transform: uppercase;
+        transform: rotate(0deg);
+        color: cyan;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+    }
+
+     70%{
+        top: 30px;
+        left: 1200px;
+        background: white;
+        color: purple;
+        border: solid black 2px;
+        text-align: center;
+        width: 100px;
+        text-transform: none;
+        transform: rotate(360deg);
+        border-radius: 20px;
+        height: 100px;
+    }
+
+    78%{
+        top: 500px;
+        left: 30px;
+        transform: rotate(0deg);
+        background: grey;
+        color: pink;
+        border: none;
+        text-align: center;
+        width: 80px;
+        border-radius: 20px;
+        height: 80px;
+    }
+
+    84%{
+        top: 30px;
+        left: 30px;
+        transform: rotate(0deg);
+        background: green;
+        color: white;
+        border: none;
+        text-align: center;
+        width: 100px;
+        border-radius: 50px;
+        height: 100px;
+    }
+
+    100% /*17% du temps*/{
+        top: 45%;
+        left: 45%;
+        background: black;
+        color: yellow;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 1.5em;
+        width: 100px;
+        height: 100px;
+}
+     
